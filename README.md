@@ -4,7 +4,8 @@ ShadowFox is a deep learning project built using **TensorFlow** and **Streamlit*
 
 This project demonstrates training a **Convolutional Neural Network (CNN)** and deploying it as a **web app** using Streamlit.
 
----
+You can access the live demo here:
+ 👉 [**ShadowFox Web App**](https://shadowfox-image-classifier.streamlit.app/) 
 
 ## 🚀 Features
 
@@ -41,70 +42,83 @@ Trained using **Adam optimizer** and **categorical cross-entropy loss**.
 ## 📁 Project Structure
 
 ShadowFox/
-│
-├── app.py # Streamlit app file
-├── model.h5 # Trained CNN model
-├── requirements.txt # Dependencies for deployment
-├── cifar10_classify.ipynb # Jupyter Notebook for training
-├── README.md # Project documentation
-└── sample_images/ # Example images (optional)
 
-yaml
-Copy code
+│
+
+├── app.py # Streamlit app file
+
+├── model.h5 # Trained CNN model
+
+├── requirements.txt # Dependencies for deployment
+
+├── cifar10_classify.ipynb # Jupyter Notebook for training
+
+├── README.md # Project documentation
+
+└── sample_images/ # Example images (optional)
 
 ---
 
 ## ⚙️ Installation & Setup (Run Locally)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ShreySharma15/ShadowFox.git
-   cd ShadowFox
+
+Clone the repository:
+```bash
+git clone https://github.com/ShreySharma15/ShadowFox.git
+cd ShadowFox
+```
+   
 Install the dependencies:
 
-bash
-Copy code
+```bash
 pip install -r requirements.txt
+```
+
 Run the Streamlit app:
 
-bash
-Copy code
+```bash
 streamlit run app.py
-Open your browser and go to:
+```
 
-arduino
-Copy code
-http://localhost:8501
-🌐 Deployment
+## 🌐 Deployment
 The project is deployed using Streamlit Cloud.
 
-You can access the live demo here:
-👉 ShadowFox Web App (Replace with your actual deployed link)
+---
 
-📦 Requirements
-nginx
-Copy code
-streamlit
-tensorflow
-numpy
-matplotlib
-scikit-learn
+## 📦 Requirements
+- nginx
+- streamlit
+- tensorflow
+- numpy
+- matplotlib
+- scikit-learn
+
 (These are listed in requirements.txt)
 
-📊 Results
-Metric	Accuracy
-Training Accuracy	~72%
-Validation Accuracy	~75%
-Test Accuracy	~73%
+---
 
-👨‍💻 Author
+## 📊 Results
+- Metric	Accuracy
+- Training Accuracy	~72%
+- Validation Accuracy	~75%
+- Test Accuracy	~73%
+
+---
+
+## 👨‍💻 Author
 Shrey Sharma
+
+
 📍 SRM University, KTR Campus
+
 🧠 AI/ML Enthusiast | Developer | Innovator
+
 
 GitHub: @ShreySharma15
 
-🧾 License
+---
+
+## 🧾 License
 This project is licensed under the MIT License – feel free to use and modify it for your own work.
 
 ⭐ If you like this project, give it a star on GitHub! ⭐
