@@ -1,8 +1,8 @@
-# 🦊 ShadowFox – Image Classification using CNN
+# 🦊 Image Classification using CNN
 
-ShadowFox is a deep learning project built using **TensorFlow** and **Streamlit**, designed to classify images from the **CIFAR-10 dataset** into one of 10 categories such as airplanes, cars, birds, cats, and more.  
+This is a deep learning project built using **TensorFlow** and **Streamlit**, designed to classify images from the **CIFAR-10 dataset** into one of 10 categories such as airplanes, cars, birds, cats, and more.  
 
-This project demonstrates training a **Convolutional Neural Network (CNN)** and deploying it as a **web app** using Streamlit.
+This project demonstrates training a **Convolutional Neural Network** and deploying it as a **web app** using Streamlit.
 
 You can access the live demo here:
  👉 [**ShadowFox Web App**](https://shadowfox-image-classifier.streamlit.app/) 
@@ -116,9 +116,4 @@ Shrey Sharma
 
 GitHub: @ShreySharma15
 
----
 
-## 🧾 License
-This project is licensed under the MIT License – feel free to use and modify it for your own work.
-
-⭐ If you like this project, give it a star on GitHub! ⭐
